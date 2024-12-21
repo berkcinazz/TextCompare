@@ -1,0 +1,27 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <PackageId>BerkC.TextCompare</PackageId>
+    <Authors>Berk Cinaz</Authors>
+    <Company>Berk Cinaz</Company>
+    <Product>TextCompare</Product>
+    <Description>This package provides to compare 2 text if they are similar or not.</Description>
+    <Copyright>Berk Cinaz 2024</Copyright>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
+    <RepositoryUrl>https://github.com/berkcinazz/TextCompare</RepositoryUrl>
+    <RepositoryType>git</RepositoryType>
+    <PackageTags>TextCompare, TextComparison, Levenshtein</PackageTags>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="..\README.md">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+  </ItemGroup>
+</Project>
+
